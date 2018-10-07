@@ -22,7 +22,7 @@ def verification50(n):
             m=int(str(n)[::-1]) #m is the reversed number n
             n=n+m     
             i+=1
-    return True   #if after 50 iterations there is no palyndrom it returns False   
+    return True   #if after 50 iterations there is no palyndrom it returns True   
             
 def solve(): #final function that gives the number of Lychrel below ten-thousand 
     Lycherel_number=0
