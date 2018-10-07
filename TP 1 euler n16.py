@@ -19,5 +19,4 @@ def solve(n):
         S+=int(m[i])
     return S
 
-
 print(solve(n))
